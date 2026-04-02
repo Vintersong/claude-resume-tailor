@@ -1,4 +1,4 @@
-# 📄 claude-resume-tailor
+# claude-resume-tailor
 
 > **A Claude skill that handles the work of tailoring resumes for ATS systems — so you don't have to.**
 
