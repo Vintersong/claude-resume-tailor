@@ -56,6 +56,6 @@ This skill takes care of that busywork: keyword matching, section ordering, form
 
 ---
 
-## 📜 License
+## License
 
 MIT
