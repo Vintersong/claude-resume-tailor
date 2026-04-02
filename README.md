@@ -1,22 +1,22 @@
 # 📄 claude-resume-tailor
 
-> **A Claude skill that handles the mind-numbing work of tailoring resumes for ATS systems — so you don't have to.**
+> **A Claude skill that handles the work of tailoring resumes for ATS systems — so you don't have to.**
 
 Stop manually rewriting your resume for every job posting. This skill lets Claude analyze any job description and produce a clean, keyword-optimized, ATS-compliant PDF resume — automatically — from a single master reference file you maintain once.
 
 ---
 
-## ✨ What it does
+## What it does
 
-- 🔍 **Analyzes** a job posting for required skills, keywords, and role priorities
-- 🎯 **Selects and rewrites** the most relevant bullets from your experience — without fabricating anything
-- 🤖 **Auto-detects** the best profile emphasis (engineering, game design, data analysis, UX research, etc.)
-- 📋 **Generates** a clean, single-column ATS-compliant PDF using ReportLab
-- 📊 **Reports** a keyword match analysis so you know exactly how well your resume fits
+- **Analyzes** a job posting for required skills, keywords, and role priorities
+- **Selects and rewrites** the most relevant bullets from your experience without fabricating anything
+- **Auto-detects** the best profile emphasis (engineering, game design, data analysis, UX research, etc.)
+- **Generates** a clean, single-column ATS-compliant PDF using ReportLab
+- **Reports** a keyword match analysis so you know exactly how well your resume fits
 
 ---
 
-## 📁 What's in this repo
+## What's in this repo
 
 | File | Purpose |
 |------|---------|
@@ -27,7 +27,7 @@ Stop manually rewriting your resume for every job posting. This skill lets Claud
 
 ---
 
-## 🚀 How it works
+## How it works
 
 1. **Fill in** `references/master_resume.md` with your real experience (do this once)
 2. **Paste a job posting** into your Claude conversation — URL, text, or uploaded file
@@ -40,7 +40,7 @@ python scripts/generate_resume_pdf.py resume_data.json output.pdf
 
 ---
 
-## 🧠 Why ATS matters
+## Why ATS matters
 
 Most large companies run resumes through Applicant Tracking Systems before a human ever sees them. If your resume doesn't contain the right keywords in the right format, it gets filtered out automatically — no matter how qualified you are.
 
@@ -48,7 +48,7 @@ This skill takes care of that busywork: keyword matching, section ordering, form
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - The included template is sanitized and contains **no personal information** — replace all placeholders before using it for a real application
 - Claude will **never fabricate** experience, skills, or qualifications — only reframe and emphasize what's in your master reference
